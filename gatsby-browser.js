@@ -1,10 +1,4 @@
 // You can delete this file if you're not using it
-// exports.onClientEntry = async () => {
-//     console.log(IntersectionObserver)
-//     if (typeof IntersectionObserver === 'undefined') {
-//         await import('intersection-observer')
-//     }
-// }
 
 exports.onClientEntry = async () => {
   // This is Native intersection observer
@@ -16,7 +10,7 @@ exports.onClientEntry = async () => {
   delete window.URLSearchParams;
   delete window.AbortController;
 
-  // then we che
+  // then we check if our objects exists in window
   if (typeof IntersectionObserver === "undefined") {
     await import("intersection-observer");
   }
