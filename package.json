@@ -1,0 +1,25 @@
+{
+  "name": "testbrowser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "testbrowser",
+  "author": "Alexandra Kudryavtseva",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "abortcontroller-polyfill": "^1.7.1",
+    "gatsby": "^2.32.3",
+    "intersection-observer": "^0.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "url-search-params-polyfill": "^8.1.0"
+  }
+}
